@@ -1,0 +1,13 @@
+diff --git a/lacord-scm-4.rockspec b/lacord-scm-4.rockspec
+index 3b27de7..e45c1f0 100644
+--- a/lacord-scm-4.rockspec
++++ b/lacord-scm-4.rockspec
+@@ -22,7 +22,7 @@ dependencies = {
+     ,'cqueues'
+     ,'http'
+     ,'lua-zlib'
+-    ,'lua-cjson-219'
++    ,'lua-cjson >= 2.1.0.9-1'
+     ,'inspect'
+ }
+ 
